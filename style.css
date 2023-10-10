@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f8fa;
+}
+.my-order{
+    padding: 37px 31px;
+}
+.my-order__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.home__overview-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 17px;
+}
+ .home__item{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.03);
+    text-align: center;
+    cursor: pointer;
+}  
+
+.home__item-title{
+    color: #595F84;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-style: normal;
+   
+    /* line-height: 150%; 16.5px */
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.home__item-price1{
+    background: #F7F8FA; 
+    padding: 9px;
+    color: #36a03d;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-style: normal;
+    /* line-height: 150%; 25.5px */
+    text-transform: uppercase;
+}
+
+
+
+.home__item-price{
+    background: #F7F8FA; 
+    padding: 9px;
+    color: #cd923a;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    border: 1px solid #cd923a;
+    /* line-height: 150%; 25.5px */
+    text-transform: uppercase;
+}
+
+.profile__activity__profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    margin-bottom: 20px;
+    padding: 17px;
+}
+.profile__activity__image{
+    display: flex;
+    align-items: center;
+}
+.profile__activity__details{
+    margin-left: 18px;
+}
+.profile__activity__details-title{
+    color: #222950;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.pending-order__profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    margin-bottom: 20px;
+    padding: 17px;
+}
+
+.para{
+    padding: 10px;
+    text-align: start;
+}
